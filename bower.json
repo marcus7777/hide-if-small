@@ -1,0 +1,18 @@
+{
+  "name": "hide-if-small",
+  "version": "1.0.0",
+  "description": "\n    \n    \n    \n  ",
+  "main": "hide-if-small.html",
+  "keywords": [
+    "polymer",
+    "web-components"
+  ],
+  "dependencies": {
+    "polymer": "*",
+    "icon-icons": "*"
+  },
+  "devDependencies": {
+    "iron-test-helpers": "*",
+    "web-component-tester": "^5.0.0"
+  }
+}

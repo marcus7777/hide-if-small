@@ -1,0 +1,26 @@
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../icon-icons/iron-icons.html">
+<link rel="import" href="../polymer/polymer.html">
+<!--
+  `<hide-if-small></hide-if-small>` demo
+  @demo demo.html
+-->
+<dom-module id="hide-if-small">
+  <template>
+    <style>
+      @media only screen and (max-width: 800px) {
+        div {
+          display:none;
+        }
+      }
+    </style>
+    <div>
+      <content></content>
+    </div>
+  </template>
+</dom-module>
+<script>
+  Polymer({
+    is: "hide-if-small",
+  })
+</script>
